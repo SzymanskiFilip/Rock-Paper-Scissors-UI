@@ -35,6 +35,7 @@ hr {
   margin-top: 120px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .button {
