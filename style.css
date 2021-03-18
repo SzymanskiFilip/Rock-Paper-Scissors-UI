@@ -21,12 +21,18 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 hr {
-  margin: 4% 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 120px;
 }
 
 .buttons {
-  margin-top: 50px;
+  margin-top: 120px;
   display: flex;
   justify-content: space-around;
 }
@@ -45,4 +51,8 @@ hr {
 
 .button:hover {
   box-shadow: 1px 1px 10px black;
+}
+
+.result-tab {
+  margin-top: 120px;
 }
