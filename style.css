@@ -24,3 +24,12 @@ h1 {
 hr {
   margin: 4% 8%;
 }
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+}
