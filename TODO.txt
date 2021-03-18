@@ -1,0 +1,4 @@
+-create a glow animation on the rock-paper-scissors banner
+-make a div if user or pc wins 5 rounds, reset points and make a button to play again or sth. (plan it before doing)
+-use material colors to style the page
+-make the site responsive
