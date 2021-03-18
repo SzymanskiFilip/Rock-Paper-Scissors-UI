@@ -3,6 +3,7 @@ let computerScore = 0;
 
 let userScoreResult = document.getElementById('user-score');
 let computerScoreResult = document.getElementById('computer-score');
+let banner = document.getElementById('banner');
 
 const rock_div = document.getElementById('r');
 const paper_div = document.getElementById('p');
@@ -17,15 +18,18 @@ function getComputerChoice(){
 function win(){
     userScore += 1;
     userScoreResult.innerHTML = userScore;
+    banner.style.backgroundColor = 'green';
 }
 
 function lose(){
     computerScore += 1;
     computerScoreResult.innerHTML = computerScore;
+    banner.style.backgroundColor = 'red';
 }
 
 function draw(){
     console.log('draw');
+    banner.style.backgroundColor = 'blue';
 }
 
 
