@@ -17,7 +17,19 @@ function getComputerChoice(){
 
 function game(userChoice){
     const computerChoice = getComputerChoice();
-    console.log(computerChoice);
+    switch(userChoice + computerChoice){
+        case "rp":
+        case "pr":
+        case "sp":
+            console.log("USER WINS");
+            break;
+        case "rs":
+        case "ps":
+        case "sr":
+            console.log("COMPUTER WINS");
+            break;
+            
+    }
 }
 
 function main(){
