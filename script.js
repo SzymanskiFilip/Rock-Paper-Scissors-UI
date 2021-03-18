@@ -21,7 +21,7 @@ function win(){
 
 function lose(){
     computerScore += 1;
-    computerScore.innerHTML = computerScore;
+    computerScoreResult.innerHTML = computerScore;
 }
 
 function draw(){
