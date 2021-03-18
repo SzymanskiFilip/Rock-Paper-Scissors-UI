@@ -1,8 +1,8 @@
 let userScore = 0;
 let computerScore = 0;
 
-const userScoreResult = document.getElementById('user-score');
-const computerScoreResult = document.getElementById('computer-score');
+let userScoreResult = document.getElementById('user-score');
+let computerScoreResult = document.getElementById('computer-score');
 
 const rock_div = document.getElementById('r');
 const paper_div = document.getElementById('p');
@@ -16,10 +16,12 @@ function getComputerChoice(){
 
 function win(){
     userScore += 1;
+    userScoreResult.innerHTML = userScore;
 }
 
 function lose(){
     computerScore += 1;
+    computerScore.innerHTML = computerScore;
 }
 
 function draw(){
