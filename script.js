@@ -1,5 +1,5 @@
-const userScore = 0;
-const computerScore = 0;
+let userScore = 0;
+let computerScore = 0;
 
 const userScoreResult = document.getElementById('user-score');
 const computerScoreResult = document.getElementById('computer-score');
@@ -15,15 +15,15 @@ function getComputerChoice(){
 }
 
 function win(){
-
+    userScore += 1;
 }
 
 function lose(){
-
+    computerScore += 1;
 }
 
 function draw(){
-    
+    console.log('draw');
 }
 
 
