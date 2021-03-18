@@ -15,6 +15,8 @@ function getComputerChoice(){
     return choices[randomNumber];
 }
 
+
+
 function win(){
     userScore += 1;
     userScoreResult.innerHTML = userScore;
@@ -55,6 +57,7 @@ function game(userChoice){
 }
 
 function main(){
+
     rock_div.addEventListener('click', function(){
         game('r');
     });
