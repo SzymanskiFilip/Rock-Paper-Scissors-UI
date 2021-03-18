@@ -28,7 +28,11 @@ function game(userChoice){
         case "sr":
             console.log("COMPUTER WINS");
             break;
-            
+        case "rr":
+        case "pp":
+        case "ss":
+            console.log("DRAW");
+            break;            
     }
 }
 
