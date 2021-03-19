@@ -56,7 +56,7 @@ function lose(){
 }
 
 function draw(){
-    console.log('draw');
+    banner.classList.add('blue-glow');
     setTimeout(function() {
         banner.classList.remove('blue-glow');
     }, 400);
