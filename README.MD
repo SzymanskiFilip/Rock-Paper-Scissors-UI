@@ -4,4 +4,4 @@
 
 #### I hope you will like it! Enjoy!
 
-####https://szymanskifilip.github.io/Rock-Paper-Scissors-UI/
+https://szymanskifilip.github.io/Rock-Paper-Scissors-UI/
