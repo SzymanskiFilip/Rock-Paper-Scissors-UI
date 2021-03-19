@@ -73,3 +73,11 @@ hr {
   -ms-user-select: none;
   user-select: none;
 }
+
+.green-glow{
+  background-color: green;
+}
+
+.red-glow{
+  background-color: red;
+}
