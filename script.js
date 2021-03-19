@@ -26,6 +26,7 @@ function win(){
         computerScore = 0;
         playAgainButton.style.display = 'flex';
         buttons.classList.add('unclickable');
+        messageBox.innerHTML = "Player won the game!";
     }
 
     banner.classList.add('green-glow');
@@ -42,6 +43,7 @@ function lose(){
         computerScore = 0;
         playAgainButton.style.display = 'flex';
         buttons.classList.add('unclickable');
+        messageBox.innerHTML = "Computer won the game!";
     }
     banner.classList.add('red-glow');
     setTimeout(function() {
