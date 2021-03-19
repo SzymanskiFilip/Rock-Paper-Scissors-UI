@@ -20,7 +20,10 @@ function getComputerChoice(){
 function win(){
     userScore += 1;
     userScoreResult.innerHTML = userScore;
-    banner.style.backgroundColor = 'green';
+    banner.classList.add('green-glow');
+    setTimeout(function() {
+        banner.classList.remove('green-glow');
+    }, 400);
 }
 
 function lose(){
