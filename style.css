@@ -136,3 +136,11 @@ hr {
 .unclickable{
   pointer-events: none;
 }
+
+@media only screen and (max-width: 460px){
+  .button{
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+  }
+}
