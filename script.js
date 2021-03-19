@@ -18,6 +18,10 @@ function getComputerChoice(){
     return choices[randomNumber];
 }
 
+playAgainButton.addEventListener('click', function(){
+    window.location = 'index.html';
+})
+
 function win(){
     userScore += 1;
     userScoreResult.innerHTML = userScore;
