@@ -89,18 +89,21 @@ hr {
   background-color: #00c853;
   box-shadow: 1px 1px 10px #00c853;
   transition: 0.2s;
+  transition-timing-function: linear;
 }
 
 .red-glow{
   background-color: #d50000;
   box-shadow: 1px 1px 10px #d50000;
   transition: 0.2s;
+  transition-timing-function: linear;
 }
 
 .blue-glow{
   background-color: #2962ff;
   box-shadow: 1px 1px 10px #2962ff;
   transition: 0.2s;
+  transition-timing-function: linear;
 }
 
 .message{
