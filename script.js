@@ -4,6 +4,7 @@ let computerScore = 0;
 let userScoreResult = document.getElementById('user-score');
 let computerScoreResult = document.getElementById('computer-score');
 let banner = document.getElementById('banner');
+let playAgainButton = document.getElementById('play-again');
 
 const rock_div = document.getElementById('r');
 const paper_div = document.getElementById('p');
@@ -20,6 +21,11 @@ function getComputerChoice(){
 function win(){
     userScore += 1;
     userScoreResult.innerHTML = userScore;
+    if(userScore > 4){
+        userScore = 0;
+        computerScore = 0;
+        playAgainButton.style.display = 'flex';
+    }
     banner.classList.add('green-glow');
     setTimeout(function() {
         banner.classList.remove('green-glow');
