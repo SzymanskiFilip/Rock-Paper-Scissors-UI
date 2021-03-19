@@ -35,8 +35,12 @@ function win(){
 function lose(){
     computerScore += 1;
     computerScoreResult.innerHTML = computerScore;
+    if(userScore > 4){
+        userScore = 0;
+        computerScore = 0;
+        playAgainButton.style.display = 'flex';
+    }
     banner.classList.add('red-glow');
-
     setTimeout(function() {
         banner.classList.remove('red-glow');
     }, 400);
