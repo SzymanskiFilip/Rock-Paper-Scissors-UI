@@ -85,3 +85,21 @@ hr {
 .blue-glow{
   background-color: blue;
 }
+
+.button-tab{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-again{
+  width: 200px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
