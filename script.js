@@ -5,6 +5,7 @@ let userScoreResult = document.getElementById('user-score');
 let computerScoreResult = document.getElementById('computer-score');
 let banner = document.getElementById('banner');
 let playAgainButton = document.getElementById('play-again');
+let messageBox = document.getElementById('message-box');
 
 const rock_div = document.getElementById('r');
 const paper_div = document.getElementById('p');
@@ -39,6 +40,7 @@ function lose(){
         userScore = 0;
         computerScore = 0;
         playAgainButton.style.display = 'flex';
+
     }
     banner.classList.add('red-glow');
     setTimeout(function() {
