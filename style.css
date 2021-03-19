@@ -55,7 +55,7 @@ hr {
 }
 
 .result-tab {
-  margin-top: 120px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
@@ -86,8 +86,12 @@ hr {
   background-color: blue;
 }
 
+.message{
+  margin-top: 50px;
+}
+
 .button-tab{
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +103,7 @@ hr {
   padding: 10px;
   border-radius: 5%;
   background-color: green;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
