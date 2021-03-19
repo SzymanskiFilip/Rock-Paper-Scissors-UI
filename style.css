@@ -12,7 +12,8 @@
 }
 
 .title {
-  background-color: blue;
+  background-color: #9c27b0;
+  color: whitesmoke;
   margin: auto;
   margin-top: 50px;
   width: 320px;
@@ -51,7 +52,9 @@ hr {
   width: 120px;
   padding: 10px;
   border-radius: 10%;
-  background-color: green;
+  background-color: #9c27b0;
+  color: whitesmoke;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
