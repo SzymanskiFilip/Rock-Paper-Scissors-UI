@@ -29,12 +29,18 @@ function win(){
 function lose(){
     computerScore += 1;
     computerScoreResult.innerHTML = computerScore;
-    banner.style.backgroundColor = 'red';
+    banner.classList.add('red-glow');
+
+    setTimeout(function() {
+        banner.classList.remove('red-glow');
+    }, 400);
 }
 
 function draw(){
     console.log('draw');
-    banner.style.backgroundColor = 'blue';
+    setTimeout(function() {
+        banner.classList.remove('blue-glow');
+    }, 400);
 }
 
 
