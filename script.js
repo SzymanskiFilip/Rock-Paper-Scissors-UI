@@ -36,7 +36,7 @@ function win(){
 function lose(){
     computerScore += 1;
     computerScoreResult.innerHTML = computerScore;
-    if(userScore > 4){
+    if(computerScore > 4){
         userScore = 0;
         computerScore = 0;
         playAgainButton.style.display = 'flex';
