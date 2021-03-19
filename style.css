@@ -82,14 +82,20 @@ hr {
 
 .green-glow{
   background-color: green;
+  box-shadow: 1px 1px 10px green;
+  transition: 0.2s;
 }
 
 .red-glow{
   background-color: red;
+  box-shadow: 1px 1px 10px red;
+  transition: 0.2s;
 }
 
 .blue-glow{
   background-color: blue;
+  box-shadow: 1px 1px 10px blue;
+  transition: 0.2s;
 }
 
 .message{
